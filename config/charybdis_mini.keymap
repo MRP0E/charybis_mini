@@ -15,9 +15,7 @@
 
 &mt { quick_tap_ms = <200>; };
 
-/ {
-    chosen { zmk,matrix_transform = &matrix_transform0; };
-};
+
 
 / {
     macros {
