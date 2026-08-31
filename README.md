@@ -44,10 +44,10 @@ Commit: ab99418c376887d043556e4a1af5a8d1c78d686c
 	// 9	 |o            o|  10 
 
 
-PMW3610 Pin 	nRF52840 Pin 	Description
-SDIO 	P1.00 	SPI MOSI/MISO (bidirectional data line)
-SCLK 	P0.24 	SPI clock signal
-NCS 	P0.22 	Chip select (active low)
-MOT 	P0.20 	Motion interrupt pin (active low, pull-up)
+PMW3610 Pin 	PrMicroPin	nRF52840 Pin 	Description
+SDIO 	P1.00   6  			SPI MOSI/MISO (bidirectional data line)
+SCLK 	P0.24 	5			SPI clock signal
+NCS 	P0.22 	4			Chip select (active low)
+MOT 	P0.20 	3			Motion interrupt pin (active low, pull-up)
 GND 	GND 	Ground
 VDD 	VCC 	Power supply (3.3V)
