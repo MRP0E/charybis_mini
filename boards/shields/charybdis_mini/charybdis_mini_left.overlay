@@ -28,3 +28,5 @@
     kscan = <&kscan0>;
 };
 
+&input_split_right0 { status = "okay"; };
+&input_listener_right0 { status = "okay"; };

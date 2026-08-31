@@ -32,3 +32,7 @@
     kscan = <&kscan0>;
 };
 
+&input_split_right0 {
+    status = "okay";
+    device = <&input_device_right0>;
+};

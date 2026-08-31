@@ -19,3 +19,22 @@
     transform = <&matrix_transform0>;
 };
 
+// Input devices
+/ {
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        input_split_right0: input_split_right0@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+            status = "disabled";
+        };
+    };
+
+    input_listener_right0: input_listener_right0 {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+        device = <&input_split_right0>;
+    };
+};

@@ -27,4 +27,18 @@ if SHIELD_CHARYBDIS_MINI_LEFT || SHIELD_CHARYBDIS_MINI_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_POINTING
+    default y
+
+endif
+
+# --- Pinctrl Kconfig for part "right" ---
+if BOARD_NICE_NANO_V2 && SHIELD_CHARYBDIS_MINI_RIGHT
+
+config SPI
+    default y
+
+config PMW3610
+    default y
+
 endif
